@@ -38,7 +38,7 @@ string and returns true or false.
 
 
 
-//Checks for substring in string, return true or false
+//Check for substring in string, return true or false
 
  function contains(str, substr) {
     if (!str.includes(substr)) {
@@ -46,5 +46,8 @@ string and returns true or false.
     }
     return str.includes(substr)
 }
+
+
+// Export
 
 module.exports = {caps, reverse, contains };
